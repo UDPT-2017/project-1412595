@@ -1,0 +1,11 @@
+<% include top %>
+<form method='POST' action='/salesave'>
+    <input type='hidden' name='docreate' value='<%= docreate ? "create" : "update"%>'>
+    <p>Key: <input type='text' name='salekey' value='<%= sale ? salekey : "" %>'></p>
+    <p>Title: <input type='text' name='title' value='<%= sale ? sale.title : "" %>'></p>
+    <br/>
+    <textarea rows=5 cols=40 name='body'><%= sale ? sale.body : "" %></textarea>
+    <br/>
+    <input type='submit' value='Submit' />
+</form>
+<% include bottom %>

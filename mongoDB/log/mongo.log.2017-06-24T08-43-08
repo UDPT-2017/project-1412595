@@ -1,0 +1,69 @@
+2017-06-23T10:54:25.416-0700 I CONTROL  [initandlisten] MongoDB starting : pid=9680 port=27017 dbpath=C:\Users\trucv\Desktop\project\mongoDB\data 64-bit host=TM
+2017-06-23T10:54:25.417-0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-23T10:54:25.417-0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-06-23T10:54:25.417-0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-06-23T10:54:25.418-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-23T10:54:25.418-0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-23T10:54:25.418-0700 I CONTROL  [initandlisten] modules: none
+2017-06-23T10:54:25.418-0700 I CONTROL  [initandlisten] build environment:
+2017-06-23T10:54:25.419-0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-23T10:54:25.419-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-23T10:54:25.419-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-23T10:54:25.419-0700 I CONTROL  [initandlisten] options: { config: "C:\Users\trucv\Desktop\project\mongoDB\config.txt", storage: { dbPath: "C:\Users\trucv\Desktop\project\mongoDB\data" }, systemLog: { destination: "file", path: "C:\Users\trucv\Desktop\project\mongoDB\log\mongo.log" } }
+2017-06-23T10:54:25.446-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3531M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-23T10:54:26.291-0700 I CONTROL  [initandlisten] 
+2017-06-23T10:54:26.292-0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-23T10:54:26.292-0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-23T10:54:26.292-0700 I CONTROL  [initandlisten] 
+2017-06-24T00:54:27.333+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/trucv/Desktop/project/mongoDB/data/diagnostic.data'
+2017-06-24T00:54:27.554+0700 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-06-24T00:54:27.554+0700 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-06-24T00:54:27.759+0700 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-06-24T00:54:27.793+0700 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-06-24T00:54:27.801+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T00:55:58.768+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:58984 #1 (1 connection now open)
+2017-06-24T00:55:58.769+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:58984 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.5" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:29:30.008+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:52314 #2 (2 connections now open)
+2017-06-24T01:29:30.033+0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:52314 conn2: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.15063" }, platform: "Node.js v6.10.3, LE, mongodb-core: 2.1.11" }
+2017-06-24T01:30:22.187+0700 I -        [conn2] end connection 127.0.0.1:52314 (2 connections now open)
+2017-06-24T01:48:41.385+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54811 #3 (2 connections now open)
+2017-06-24T01:48:41.502+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:54811 conn3: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:48:42.688+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54812 #4 (3 connections now open)
+2017-06-24T01:48:42.689+0700 I NETWORK  [conn4] received client metadata from 127.0.0.1:54812 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:07.653+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54813 #5 (4 connections now open)
+2017-06-24T01:49:07.655+0700 I NETWORK  [conn5] received client metadata from 127.0.0.1:54813 conn5: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:07.714+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54814 #6 (5 connections now open)
+2017-06-24T01:49:07.714+0700 I NETWORK  [conn6] received client metadata from 127.0.0.1:54814 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:13.895+0700 I COMMAND  [conn5] command admin.$cmd appName: "Robomongo" command: listCollections { listCollections: 1, filter: {}, cursor: {} } numYields:0 reslen:273 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { R: 1 } } } protocol:op_command 100ms
+2017-06-24T01:49:20.625+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54815 #7 (6 connections now open)
+2017-06-24T01:49:20.626+0700 I NETWORK  [conn7] received client metadata from 127.0.0.1:54815 conn7: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:20.711+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54816 #8 (7 connections now open)
+2017-06-24T01:49:20.712+0700 I NETWORK  [conn8] received client metadata from 127.0.0.1:54816 conn8: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:26.815+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54817 #9 (8 connections now open)
+2017-06-24T01:49:26.816+0700 I NETWORK  [conn9] received client metadata from 127.0.0.1:54817 conn9: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:49:26.923+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:54818 #10 (9 connections now open)
+2017-06-24T01:49:26.924+0700 I NETWORK  [conn10] received client metadata from 127.0.0.1:54818 conn10: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T01:50:01.480+0700 I COMMAND  [conn5] command sales.$cmd appName: "Robomongo" command: listCollections { listCollections: 1, filter: { name: "temp" }, cursor: {} } numYields:0 reslen:99 locks:{ Global: { acquireCount: { r: 2 } }, Database: { acquireCount: { R: 1 } } } protocol:op_command 128ms
+2017-06-24T01:50:01.613+0700 I COMMAND  [conn5] insert sales.temp appName: "Robomongo" ninserted:1 keysInserted:1 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 110ms
+2017-06-24T01:50:01.614+0700 I COMMAND  [conn5] CMD: drop sales.temp
+2017-06-24T01:50:47.505+0700 I COMMAND  [conn5] insert sales.system.users appName: "Robomongo" ninserted:1 keysInserted:1 numYields:0 locks:{ Global: { acquireCount: { r: 3, w: 3 } }, Database: { acquireCount: { w: 2, W: 1 } }, Collection: { acquireCount: { w: 2 } } } 127ms
+2017-06-24T02:35:02.731+0700 I -        [conn1] end connection 127.0.0.1:58984 (9 connections now open)
+2017-06-24T02:35:04.464+0700 I -        [conn7] end connection 127.0.0.1:54815 (8 connections now open)
+2017-06-24T02:35:04.522+0700 I -        [conn9] end connection 127.0.0.1:54817 (7 connections now open)
+2017-06-24T02:35:04.550+0700 I -        [conn8] end connection 127.0.0.1:54816 (6 connections now open)
+2017-06-24T02:35:04.550+0700 I -        [conn10] end connection 127.0.0.1:54818 (6 connections now open)
+2017-06-24T02:35:04.760+0700 I -        [conn3] end connection 127.0.0.1:54811 (4 connections now open)
+2017-06-24T02:35:04.760+0700 I -        [conn5] end connection 127.0.0.1:54813 (4 connections now open)
+2017-06-24T02:35:04.761+0700 I -        [conn6] end connection 127.0.0.1:54814 (2 connections now open)
+2017-06-24T02:35:04.761+0700 I -        [conn4] end connection 127.0.0.1:54812 (1 connection now open)
+2017-06-24T02:35:09.482+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-06-24T02:35:09.482+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-06-24T02:35:09.482+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-06-24T02:35:09.482+0700 I NETWORK  [consoleTerminate] closing listening socket: 532
+2017-06-24T02:35:09.482+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-06-24T02:35:09.587+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-06-24T02:35:09.743+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-06-24T02:35:09.923+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-06-24T02:35:09.924+0700 I CONTROL  [consoleTerminate] now exiting
+2017-06-24T02:35:09.924+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-06-24T02:35:09.924+0700 

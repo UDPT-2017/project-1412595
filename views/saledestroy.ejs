@@ -1,0 +1,9 @@
+<% include top %>
+<form method="POST" action='saledodestroy'>
+    <input type='hidden' name='salekey' value='<%= sale ? salekey : "" %>'>
+    <p>Delete <%= sale.title %> ?</p>
+    <br/>
+    <input type="submit" value="DELETE" />
+    <a href="/saleview?key=<%= salekey %>">Cancel</a>
+</form>
+<% include bottom %>

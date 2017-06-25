@@ -1,0 +1,11 @@
+<% include top %>
+<%
+    if(sales) {
+        for(var i in sales.sales) {
+            %><p><%= i %>: 
+                <a href="/saleview?key=<%= i %>"><%= sales.sales[i].title %></a>
+            </p><%
+        }
+    }
+%>
+<% include bottom %>

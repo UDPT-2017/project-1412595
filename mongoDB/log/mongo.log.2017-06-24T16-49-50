@@ -1,0 +1,38 @@
+2017-06-24T23:12:50.036+0700 I CONTROL  [initandlisten] MongoDB starting : pid=10736 port=27017 dbpath=C:\Users\trucv\Desktop\project\mongoDB\data 64-bit host=TM
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] modules: none
+2017-06-24T23:12:50.037+0700 I CONTROL  [initandlisten] build environment:
+2017-06-24T23:12:50.038+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-24T23:12:50.038+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-24T23:12:50.038+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-24T23:12:50.038+0700 I CONTROL  [initandlisten] options: { config: "C:\Users\trucv\Desktop\project\mongoDB\config.txt", storage: { dbPath: "C:\Users\trucv\Desktop\project\mongoDB\data" }, systemLog: { destination: "file", path: "C:\Users\trucv\Desktop\project\mongoDB\log\mongo.log" } }
+2017-06-24T23:12:50.039+0700 I -        [initandlisten] Detected data files in C:\Users\trucv\Desktop\project\mongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-24T23:12:50.039+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3531M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-24T23:12:51.206+0700 I CONTROL  [initandlisten] 
+2017-06-24T23:12:51.206+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-24T23:12:51.206+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-24T23:12:51.206+0700 I CONTROL  [initandlisten] 
+2017-06-24T23:12:51.474+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/trucv/Desktop/project/mongoDB/data/diagnostic.data'
+2017-06-24T23:12:51.475+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-24T23:13:30.770+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61229 #1 (1 connection now open)
+2017-06-24T23:13:30.770+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:61229 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.5" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-24T23:14:22.535+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61238 #2 (2 connections now open)
+2017-06-24T23:14:22.548+0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:61238 conn2: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.15063" }, platform: "Node.js v6.10.3, LE, mongodb-core: 2.1.11" }
+2017-06-24T23:15:05.921+0700 I -        [conn2] end connection 127.0.0.1:61238 (2 connections now open)
+2017-06-24T23:40:43.329+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61376 #3 (2 connections now open)
+2017-06-24T23:40:43.336+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:61376 conn3: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.15063" }, platform: "Node.js v6.10.3, LE, mongodb-core: 2.1.11" }
+2017-06-24T23:48:40.488+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-06-24T23:48:40.488+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-06-24T23:48:40.488+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-06-24T23:48:40.488+0700 I NETWORK  [consoleTerminate] closing listening socket: 520
+2017-06-24T23:48:40.610+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-06-24T23:48:40.615+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-06-24T23:48:40.627+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-06-24T23:48:40.767+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-06-24T23:48:40.768+0700 I CONTROL  [consoleTerminate] now exiting
+2017-06-24T23:48:40.768+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-06-24T23:48:40.768+0700

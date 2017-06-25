@@ -1,0 +1,12 @@
+<% include top %>
+<h3><%= sale ? sale.title : "" %></h3>
+<p><%= sale ? sale.body : "" %></p>
+<p>Key: <%= salekey %></p>
+<% if (salekey) { %>
+    <hr/>
+    <p>
+        <a href="saledestroy?key=<%= salekey %>">Delete<a/>
+        <a href="saleedit?key=<%= salekey %>">Edit</a>
+    </p>
+<% } %>
+<% include bottom %>

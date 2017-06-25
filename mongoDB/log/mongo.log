@@ -1,0 +1,57 @@
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] MongoDB starting : pid=10020 port=27017 dbpath=C:\Users\trucv\Desktop\project\mongoDB\data 64-bit host=TM
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] db version v3.4.5
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] git version: 520b8f3092c48d934f0cd78ab5f40fe594f96863
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] modules: none
+2017-06-25T23:29:50.282+0700 I CONTROL  [initandlisten] build environment:
+2017-06-25T23:29:50.283+0700 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-06-25T23:29:50.283+0700 I CONTROL  [initandlisten]     distarch: x86_64
+2017-06-25T23:29:50.283+0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-06-25T23:29:50.283+0700 I CONTROL  [initandlisten] options: { config: "C:\Users\trucv\Desktop\project\mongoDB\config.txt", storage: { dbPath: "C:\Users\trucv\Desktop\project\mongoDB\data" }, systemLog: { destination: "file", path: "C:\Users\trucv\Desktop\project\mongoDB\log\mongo.log" } }
+2017-06-25T23:29:50.283+0700 I -        [initandlisten] Detected data files in C:\Users\trucv\Desktop\project\mongoDB\data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-06-25T23:29:50.284+0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3531M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-06-25T23:29:51.287+0700 I CONTROL  [initandlisten] 
+2017-06-25T23:29:51.287+0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-06-25T23:29:51.288+0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-06-25T23:29:51.288+0700 I CONTROL  [initandlisten] 
+2017-06-25T23:29:51.830+0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/Users/trucv/Desktop/project/mongoDB/data/diagnostic.data'
+2017-06-25T23:29:51.831+0700 I NETWORK  [thread1] waiting for connections on port 27017
+2017-06-25T23:29:59.326+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59484 #1 (1 connection now open)
+2017-06-25T23:29:59.326+0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:59484 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.5" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:31:19.279+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59491 #2 (2 connections now open)
+2017-06-25T23:31:19.280+0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:59491 conn2: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:31:19.344+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59492 #3 (3 connections now open)
+2017-06-25T23:31:19.344+0700 I NETWORK  [conn3] received client metadata from 127.0.0.1:59492 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:31:28.376+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59493 #4 (4 connections now open)
+2017-06-25T23:31:28.377+0700 I NETWORK  [conn4] received client metadata from 127.0.0.1:59493 conn4: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:31:28.467+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59494 #5 (5 connections now open)
+2017-06-25T23:31:28.468+0700 I NETWORK  [conn5] received client metadata from 127.0.0.1:59494 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:34:36.650+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59521 #6 (6 connections now open)
+2017-06-25T23:34:36.651+0700 I NETWORK  [conn6] received client metadata from 127.0.0.1:59521 conn6: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:34:36.774+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59522 #7 (7 connections now open)
+2017-06-25T23:34:36.775+0700 I NETWORK  [conn7] received client metadata from 127.0.0.1:59522 conn7: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:34:45.958+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59523 #8 (8 connections now open)
+2017-06-25T23:34:45.959+0700 I NETWORK  [conn8] received client metadata from 127.0.0.1:59523 conn8: { application: { name: "Robomongo" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:34:46.079+0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:59524 #9 (9 connections now open)
+2017-06-25T23:34:46.079+0700 I NETWORK  [conn9] received client metadata from 127.0.0.1:59524 conn9: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3-7-gf394f8c" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-06-25T23:43:06.455+0700 I -        [conn8] end connection 127.0.0.1:59523 (9 connections now open)
+2017-06-25T23:43:06.457+0700 I -        [conn6] end connection 127.0.0.1:59521 (8 connections now open)
+2017-06-25T23:43:06.458+0700 I -        [conn9] end connection 127.0.0.1:59524 (7 connections now open)
+2017-06-25T23:43:06.461+0700 I -        [conn7] end connection 127.0.0.1:59522 (6 connections now open)
+2017-06-25T23:43:06.464+0700 I -        [conn4] end connection 127.0.0.1:59493 (5 connections now open)
+2017-06-25T23:43:06.469+0700 I -        [conn5] end connection 127.0.0.1:59494 (4 connections now open)
+2017-06-25T23:43:06.633+0700 I -        [conn2] end connection 127.0.0.1:59491 (3 connections now open)
+2017-06-25T23:43:06.634+0700 I -        [conn3] end connection 127.0.0.1:59492 (2 connections now open)
+2017-06-25T23:43:09.190+0700 I CONTROL  [thread2] CTRL_CLOSE_EVENT signal
+2017-06-25T23:43:09.190+0700 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2017-06-25T23:43:09.190+0700 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-06-25T23:43:09.191+0700 I NETWORK  [consoleTerminate] closing listening socket: 520
+2017-06-25T23:43:09.191+0700 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-06-25T23:43:09.191+0700 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-06-25T23:43:09.195+0700 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-06-25T23:43:09.478+0700 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-06-25T23:43:09.479+0700 I CONTROL  [consoleTerminate] now exiting
+2017-06-25T23:43:09.479+0700 I CONTROL  [consoleTerminate] shutting down with code:12
+2017-06-25T23:43:09.479+0700

@@ -1,0 +1,5 @@
+##store data
+dbpath=C:\Users\trucv\Desktop\project-1412595\mongoDB\data
+ 
+##all output go here
+logpath=C:\Users\trucv\Desktop\project-1412595\mongoDB\log\mongo.log
